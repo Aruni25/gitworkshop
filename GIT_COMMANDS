@@ -1,0 +1,59 @@
+Git is a distributed version control system that tracks file versions. It's often used to control source code by programmers collaborating on software development.
+
+
+git --version
+pwd(present working directory)
+ls
+git status
+
+
+CONFIG SETTINGS
+--global(iske through git humare system pe configuration file rakhta h global settings pe and git ko pata h woh file kaha h so woh automatically usko dekh lega and then global level pe we r making an email and similar for name)
+git config --global user.email "arunisharma.placement@gmail.com"
+git config --global user.name "Aruni"
+to check the config: git config --list
+
+
+git config --global init.defaultBranch <name>
+git branch -m <name>
+
+CREATING REPO
+git status
+git init (role is to get the hidden folder .git n the folder tracking is started)   
+ls -la (to check if we have .git folder)
+ls -l
+
+
+Staging
+git add <file> <file2>
+or git add . (all files)
+git status
+(but rn commits r not done yet)
+
+git rm --cached <file>  (to unstage the file)
+
+
+
+COMMIT
+git commit -m "commit message"
+git status
+
+
+
+LOGS
+git log  ()
+git log --oneline  ()
+
+
+
+CHANGE DEFAULT CODE EDITOR (which is VIM)
+git config --global core.editor "code --wait"
+
+
+
+gitignore
+
+
+
+
+
